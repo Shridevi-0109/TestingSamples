@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Danube>
+<Signup>signup</Signup>
+<Name>s-name</Name>
+<Surname>s-surname</Surname>
+<Email>s-email</Email>
+<Password>s-password2</Password>
+<Company>s-company</Company>
+<Myself>myself</Myself>
+<Agreement>marketing-agreement</Agreement>
+<Policy>privacy-policy</Policy>
+<Register>//button[contains(text(), 'Register')]</Register>
+</Danube>

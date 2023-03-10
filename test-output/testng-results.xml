@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23035" started-at="2023-03-04T13:25:54 IST" finished-at="2023-03-04T13:26:17 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23035" started-at="2023-03-04T13:25:54 IST" finished-at="2023-03-04T13:26:17 IST">
+      <class name="testScripts.ExerciseDhanubeStore">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testScripts.ExerciseDhanubeStore@727803de]" name="setup" is-config="true" duration-ms="9537" started-at="2023-03-04T13:25:54 IST" finished-at="2023-03-04T13:26:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testScripts.ExerciseDhanubeStore@727803de]" name="register" duration-ms="1070" started-at="2023-03-04T13:26:03 IST" data-provider="Register" finished-at="2023-03-04T13:26:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shri]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Adhi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[shri01@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[shri.01]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ZuciSystems]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="search()[pri:0, instance:testScripts.ExerciseDhanubeStore@727803de]" name="search" duration-ms="12335" started-at="2023-03-04T13:26:04 IST" finished-at="2023-03-04T13:26:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+      </class> <!-- testScripts.ExerciseDhanubeStore -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
