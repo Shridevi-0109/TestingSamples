@@ -88,16 +88,21 @@ public class SampleOneTest {
 //  }
 // 
    
- @Parameters("browser1")	
+ @Parameters("browser")	
  @BeforeMethod
 	public void setup(String strBrowser) {
 	 if(strBrowser.equalsIgnoreCase("chrome")) {
 		  WebDriverManager.chromedriver().setup();
-		  driver = new ChromeDriver();
-	 }
-		  driver.manage().window().maximize();
+		  driver = new ChromeDriver();	 
+		  
+	}else if(strBrowser.equalsIgnoreCase("edge")) {
+		  WebDriverManager.edgedriver().setup();
+		  driver = new EdgeDriver();
+		  
 	}
- 
+		  driver.manage().window().maximize();
+	
+ }
     @AfterTest
     public void teardown() {
 	    driver.close();

@@ -3,13 +3,9 @@ package testScripts;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-//import org.openqa.selenium.chrome.ChromeDriver;
-//import org.openqa.selenium.edge.EdgeDriver;
-//import org.openqa.selenium.edge.EdgeDriver;
-//import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+
 import org.testng.Assert;
-//import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -17,15 +13,15 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class SampleTwoTest {
 	
   //@Parameters("browser2")
-  @Test(retryAnalyzer = RetrySampleTest.class)
+  @Test//(retryAnalyzer = RetrySampleTest.class)
     public void cypressSearchTest()  {  
 	//if(strBrowser.equalsIgnoreCase("edge")) {
 //	  System.setProperty("webdriver.chrome.driver", "D:\\webdrivers\\chromedriver.exe");
 //	  WebDriverManager.edgedriver().setup();
 //	  }
 //	  WebDriver driver = new EdgeDriver();
-	  WebDriverManager.chromedriver().setup();
-	  WebDriver driver = new ChromeDriver();
+	  WebDriverManager.edgedriver().setup();
+	  WebDriver driver = new EdgeDriver();
 	  
 //	  WebDriverManager.firefoxdriver().setup();
 //	  WebDriver driver = new FirefoxDriver();
